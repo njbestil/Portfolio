@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* fonts */
+.font-shadows-into-light {
+    font-family: 'Shadows Into Light Two', cursive !important;
+}
+
+.font-archivo-black {
+    font-family: 'Archivo Black', sans-serif;
+}
+/* End - fonts */
+
 .text-dark {
     color: #2A2F33
 }

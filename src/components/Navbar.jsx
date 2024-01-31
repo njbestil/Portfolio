@@ -7,7 +7,9 @@ import {
     HiOutlineEnvelope, 
     HiMiniCodeBracketSquare, 
     HiMiniBars2, 
-    HiMiniChevronDoubleUp } from "react-icons/hi2";
+    HiMiniChevronDoubleUp,
+    HiOutlineDocumentText
+ } from "react-icons/hi2";
 import { FaLinkedin } from "react-icons/fa";
 
 export default function Navbar() {
@@ -25,8 +27,7 @@ export default function Navbar() {
             // Scroll position top
             setIsScrollTop(true);
             setNavbarHidden(true);
-        }
-        
+        }  
     });
 
     useEffect(()=>{
@@ -74,10 +75,11 @@ export default function Navbar() {
                                 </button>
                             </div>
                             <div className="grow flex items-center">
-                                <HiMiniChevronDoubleUp 
-                                    className="mx-auto animate-bounce text-xl"
+                                <div className="px-5 py-1 mx-auto"
                                     onClick={()=>setNavbarHidden(!navbarHidden)} 
-                                />
+                                >
+                                    <HiMiniChevronDoubleUp className="animate-bounce text-xl" /> 
+                                </div>
                             </div>
                             <div className="flex-none">
                                 <button
@@ -131,10 +133,14 @@ export default function Navbar() {
                         >About Me</a>
                     </li>
                     <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
-                        Menu 2
+                        <a href="#myskills"
+                            onClick={() => setOpenMenu(!openMenu)}
+                        >My Skills</a>
                     </li>
                     <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
-                        Menu 2
+                        <a href="#portfolio"
+                            onClick={() => setOpenMenu(!openMenu)}
+                        >Portfolio</a>
                     </li>
                 </ul>
             </div>
@@ -150,10 +156,13 @@ export default function Navbar() {
                 </div>
                 <ul className="px-2 text-right">
                     <li className="py-2 hover:font-semibold">
-                        <span className="text-xs">+971 52 246 5535</span> <HiMiniDevicePhoneMobile className="inline text-lg" />
+                        <a href="https://wa.me/+971522465535" target="_blank"><span className="text-xs">+971 52 246 5535</span> <HiMiniDevicePhoneMobile className="inline text-lg" /></a>
                     </li>
                     <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
-                        <span className="text-xs">njbestil90@gmail.com</span> <HiOutlineEnvelope className="inline text-lg" />
+                        <a href="mailto:njbestil90@gmail.com"><span className="text-xs">njbestil90@gmail.com</span> <HiOutlineEnvelope className="inline text-lg" /></a>
+                    </li>
+                    <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
+                        <a href="/CV.pdf" download="Best_CV.pdf"><span className="text-xs">Download CV</span> <HiOutlineDocumentText className="inline text-lg" /></a>
                     </li>
                     <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
                         <a href="https://www.linkedin.com/in/neil-joseph-bestil-b8a67822b" target="_blank"><span className="text-xs">in/neil-joseph-bestil</span> <FaLinkedin className="inline text-lg" /></a>

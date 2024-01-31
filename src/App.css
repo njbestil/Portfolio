@@ -2,10 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+/* fonts */
+.font-shadows-into-light {
+    font-family: 'Shadows Into Light Two', cursive !important;
+}
+
+.font-archivo-black {
+    font-family: 'Archivo Black', sans-serif;
+}
+/* End - fonts */
+
 .text-dark {
     color: #2A2F33
 }
 
 .bg-dark {
     background: #2A2F33;
+}
+
+.custom-shadow {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 8px rgba(0, 0, 0, 0.1);
 }

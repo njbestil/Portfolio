@@ -33,7 +33,7 @@ export default function PortfolioDetails() {
                             {
                                 portfolio.images?.map((image, i) => {
                                     return (
-                                        <img key={i} src={`/images/${image}`} alt="..." className='object-fill w-full h-full' />
+                                        <img key={i} src={`/Portfolio/images/${image}`} alt="..." className='object-fill w-full h-full' />
                                     )
                                 })
                             }

@@ -4,7 +4,7 @@ export default function MySkills() {
     return (
         <>
             <div id="myskills" className="relative mb-8">
-                <img src="/images/skill_bg.jpg" className="w-full h-full object-fill" />
+                <img src="/Portfolio/images/skill_bg.jpg" className="w-full h-full object-fill" />
                 <div className="absolute text-white bottom-10 right-8 text-right">
                     <p className="text-4xl">
                         my<br/>

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useLocation, Link } from 'react-router-dom';
+import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { 
     HiMiniBars3, 
     HiPhone, 
@@ -43,7 +44,7 @@ export default function Navbar() {
 
     useEffect(() => {
         // Check if the pathname is just the root '/'
-        if (location.pathname === '/' && location.search === '') {
+        if ((location.pathname === '/' || location.pathname === '/Portfolio' || location.pathname === '/Portfolio/') && location.search === '') {
             setIsHome(true);
         } else {
             setIsHome(false)
@@ -57,7 +58,7 @@ export default function Navbar() {
         if (window.history.length > 1 && previousPageURL) {
             window.history.go(-1);
         } else {
-            window.location.href = "/";
+            window.location.href = "/Portfolio/";
         }
     }
 
@@ -164,30 +165,30 @@ export default function Navbar() {
             <div className={`${openMenu ? "left-0" : "-left-full"} fixed z-50 top-0 h-screen w-[60%] bg-dark text-gray-100 transition-[left] duration-500 ease-in-out`}>
                 <div className="p-2">
                     <HiOutlineXMark
-                        className="ml-auto font-bold text-2xl hover:scale-110"
+                        className="ml-auto font-bold text-2xl hover:scale-110 cursor-pointer"
                         onClick={() => setOpenMenu(!openMenu)}
                     />
                 </div>
                 <ul className="px-2">
                     <li className="py-2 hover:font-semibold">
-                        <a href="#introduction"
+                        <AnchorLink  href="#introduction"
                             onClick={() => setOpenMenu(!openMenu)}
-                        ><p>Introduction</p></a>
+                        ><p>Introduction</p></AnchorLink >
                     </li>
                     <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
-                        <a href="#aboutme" className="w-full"
+                        <AnchorLink href="#aboutme" className="w-full"
                             onClick={() => setOpenMenu(!openMenu)}
-                        ><p>About Me</p></a>
+                        ><p>About Me</p></AnchorLink>
                     </li>
                     <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
-                        <a href="#myskills" className="w-full"
+                        <AnchorLink href="#myskills" className="w-full"
                             onClick={() => setOpenMenu(!openMenu)}
-                        ><p>My Skills</p></a>
+                        ><p>My Skills</p></AnchorLink>
                     </li>
                     <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
-                        <a href="#portfolio" className="w-full"
+                        <AnchorLink href="#portfolio" className="w-full"
                             onClick={() => setOpenMenu(!openMenu)}
-                        ><p>Portfolio</p></a>
+                        ><p>Portfolio</p></AnchorLink>
                     </li>
                 </ul>
             </div>
@@ -197,25 +198,25 @@ export default function Navbar() {
             <div className={`${openContactMenu ? "right-0" : "-right-full"} fixed z-50 top-0 h-screen w-[60%] bg-dark text-gray-100 transition-[right] duration-500 ease-in-out`}>
                 <div className="p-2">
                     <HiOutlineXMark
-                        className="mr-auto font-bold text-2xl hover:scale-110"
+                        className="mr-auto font-bold text-2xl hover:scale-110 cursor-pointer"
                         onClick={() => setOpenContactMenu(!openContactMenu)}
                     />
                 </div>
                 <ul className="px-2 text-right">
                     <li className="py-2 hover:font-semibold">
-                        <a href="https://wa.me/+971522465535" target="_blank"><p><span className="text-xs">+971 52 246 5535</span> <HiMiniDevicePhoneMobile className="inline text-lg" /></p></a>
+                        <Link to="https://wa.me/+971522465535" target="_blank"><p><span className="text-xs">+971 52 246 5535</span> <HiMiniDevicePhoneMobile className="inline text-lg" /></p></Link>
                     </li>
                     <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
-                        <a href="mailto:njbestil90@gmail.com"><p><span className="text-xs">njbestil90@gmail.com</span> <HiOutlineEnvelope className="inline text-lg" /></p></a>
+                        <Link to="mailto:njbestil90@gmail.com"><p><span className="text-xs">njbestil90@gmail.com</span> <HiOutlineEnvelope className="inline text-lg" /></p></Link>
                     </li>
                     <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
-                        <a href="/CV.pdf" download="Best_CV.pdf"><p><span className="text-xs">Download CV</span> <HiOutlineDocumentText className="inline text-lg" /></p></a>
+                        <a href="/Portfolio/CV.pdf" download="Best_CV.pdf"><p><span className="text-xs">Download CV</span> <HiOutlineDocumentText className="inline text-lg" /></p></a>
                     </li>
                     <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
-                        <a href="https://www.linkedin.com/in/neil-joseph-bestil-b8a67822b" target="_blank"><p><span className="text-xs">in/neil-joseph-bestil</span> <FaLinkedin className="inline text-lg" /></p></a>
+                        <Link to="https://www.linkedin.com/in/neil-joseph-bestil-b8a67822b" target="_blank"><p><span className="text-xs">in/neil-joseph-bestil</span> <FaLinkedin className="inline text-lg" /></p></Link>
                     </li>
                     <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
-                        <a href="https://github.com/njbestil/Portfolio" target="_blank" ><p><span className="text-xs">Source Code</span> <HiMiniCodeBracketSquare className="inline text-xl" /></p></a>
+                        <Link to="https://github.com/njbestil/Portfolio" target="_blank" ><p><span className="text-xs">Source Code</span> <HiMiniCodeBracketSquare className="inline text-xl" /></p></Link>
                     </li>
                 </ul>
             </div>

@@ -2,16 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-/* fonts */
-.font-shadows-into-light {
-    font-family: 'Shadows Into Light Two', cursive !important;
-}
-
-.font-archivo-black {
-    font-family: 'Archivo Black', sans-serif;
-}
-/* End - fonts */
-
 .text-dark {
     color: #2A2F33
 }
@@ -20,6 +10,114 @@
     background: #2A2F33;
 }
 
+/* Fonts */
+.font-shadows-into-light {
+    font-family: 'Shadows Into Light Two', cursive !important;
+}
+
+.font-archivo-black {
+    font-family: 'Archivo Black', sans-serif;
+}
+/* End-Fonts */
+
+/* Carousel */
+.carousel {
+    height: 300px !important;
+}
+
+.carousel>div {
+    border-radius: 0px;
+}
+
+.carousel [data-testid="carousel-right-control"] > span,
+.carousel [data-testid="carousel-left-control"] > span {
+    background: #ffffff98;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.carousel [data-testid="carousel-right-control"] > span > svg,
+.carousel [data-testid="carousel-left-control"] > span > svg {
+    color: #00000092;
+}
+
+/* End-Carousel */
+
+/* Tooltip */
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-container-bottom .tooltip-arrow {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #333;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tooltip-container-left .tooltip-arrow {
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 8px solid #333;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
+
+.tooltip-container-right .tooltip-arrow {
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 8px solid #333;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.tooltip {
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    opacity: 0.9;
+    margin: 0 10px;
+}
+
+.tooltip-bottom {
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.tooltip-right {
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+}
+
+.tooltip-left {
+    top: 50%;
+    right: 100%;
+    transform: translateY(-50%);
+}
+/* End-Tooltip */
+
+/* Custom */
 .custom-shadow {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 6px 8px rgba(0, 0, 0, 0.1);
 }
+.hover\:custom-shadow-inner:hover {
+    --tw-shadow: inset 0 2px 4px 0 rgb(0 0 0 / 0.5);
+    --tw-shadow-colored: inset 0 2px 4px 0 var(--tw-shadow-color);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+/* End-Custom */

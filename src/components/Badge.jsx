@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react"
-export default function Bandge({highlight, children}) {
+export default function Badge({highlight, children}) {
     const [classValue, setClassValue] = useState();
 
     useEffect(()=>{

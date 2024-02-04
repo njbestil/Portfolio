@@ -13,7 +13,7 @@ export default function Portfolio() {
 
             <div className="flex flex-wrap gap-5 bg-stone-200 p-5 justify-center">
                 <Card src="/images/avidhilda_ss_1.jpg">
-                    <a href="#" className="bg-[#8C9491]/90 px-3 py-2 text-sm rounded group/btn">more details <HiArrowRightCircle className="ml-1 inline text-white text-xl group-hover/btn:ml-3 transition-all duration-300" /></a>
+                    <a href="/portfolio-details/avidhilda" className="bg-[#8C9491]/90 px-3 py-2 text-sm rounded group/btn">more details <HiArrowRightCircle className="ml-1 inline text-white text-xl group-hover/btn:ml-3 transition-all duration-300" /></a>
                     <div className="flex flex-wrap gap-2 mt-5">
                         <p className="bg-[#8C8C9C]/90 px-3 py-1 text-xs rounded-md text-zinc-100">business website</p>
                         <p className="bg-[#8C8C9C]/90 px-3 py-1 text-xs rounded-md text-zinc-100">cms</p>
@@ -22,20 +22,20 @@ export default function Portfolio() {
                     </div>
                 </Card>
                 <Card src="/images/thoiltrading_ss_1.jpg">
-                    <a href="#" className="bg-[#8C9491]/90 px-3 py-2 text-sm rounded group/btn">more details <HiArrowRightCircle className="ml-1 inline text-white text-xl group-hover/btn:ml-3 transition-all duration-300" /></a>
+                    <a href="/portfolio-details/thoiltrading" className="bg-[#8C9491]/90 px-3 py-2 text-sm rounded group/btn">more details <HiArrowRightCircle className="ml-1 inline text-white text-xl group-hover/btn:ml-3 transition-all duration-300" /></a>
                     <div className="flex flex-wrap gap-2 mt-5">
                         <p className="bg-[#8C8C9C]/90 px-3 py-1 text-xs rounded-md text-zinc-100">business website</p>
                         <p className="bg-[#8C8C9C]/90 px-3 py-1 text-xs rounded-md text-zinc-100">cms</p>
                     </div>
                 </Card>
                 <Card src="/images/hafez_ss_1.png">
-                    <a href="#" className="bg-[#8C9491]/90 px-3 py-2 text-sm rounded group/btn">more details <HiArrowRightCircle className="ml-1 inline text-white text-xl group-hover/btn:ml-3 transition-all duration-300" /></a>
+                    <a href="/portfolio-details/hafez app" className="bg-[#8C9491]/90 px-3 py-2 text-sm rounded group/btn">more details <HiArrowRightCircle className="ml-1 inline text-white text-xl group-hover/btn:ml-3 transition-all duration-300" /></a>
                     <div className="flex flex-wrap gap-2 mt-5">
                         <p className="bg-[#8C8C9C]/90 px-3 py-1 text-xs rounded-md text-zinc-100">web app</p>
                     </div>
                 </Card>
                 <Card src="/images/uc_ss_1.jpg">
-                    <a href="#" className="bg-[#8C9491]/90 px-3 py-2 text-sm rounded group/btn">more details <HiArrowRightCircle className="ml-1 inline text-white text-xl group-hover/btn:ml-3 transition-all duration-300" /></a>
+                    <a href="/portfolio-details/universal couture" className="bg-[#8C9491]/90 px-3 py-2 text-sm rounded group/btn">more details <HiArrowRightCircle className="ml-1 inline text-white text-xl group-hover/btn:ml-3 transition-all duration-300" /></a>
                     <div className="flex flex-wrap gap-2 mt-5">
                         <p className="bg-[#8C8C9C]/90 px-3 py-1 text-xs rounded-md text-zinc-100">business website</p>
                         <p className="bg-[#8C8C9C]/90 px-3 py-1 text-xs rounded-md text-zinc-100">cms</p>
@@ -43,7 +43,7 @@ export default function Portfolio() {
                     </div>
                 </Card>
                 <Card src="/images/stc_ss_1.png">
-                    <a href="#" className="bg-[#8C9491]/90 px-3 py-2 text-sm rounded group/btn">more details <HiArrowRightCircle className="ml-1 inline text-white text-xl group-hover/btn:ml-3 transition-all duration-300" /></a>
+                    <a href="/portfolio-details/STC Partners" className="bg-[#8C9491]/90 px-3 py-2 text-sm rounded group/btn">more details <HiArrowRightCircle className="ml-1 inline text-white text-xl group-hover/btn:ml-3 transition-all duration-300" /></a>
                     <div className="flex flex-wrap gap-2 mt-5">
                         <p className="bg-[#8C8C9C]/90 px-3 py-1 text-xs rounded-md text-zinc-100">smart supplier portal</p>
                         <p className="bg-[#8C8C9C]/90 px-3 py-1 text-xs rounded-md text-zinc-100">scm</p>

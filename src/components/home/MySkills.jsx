@@ -39,6 +39,7 @@ export default function MySkills() {
                         <Badge>OracleJet</Badge>
                         <Badge highlight={true}>Laravel</Badge>
                         <Badge>CodeIgniter</Badge>
+                        <Badge highlight={true}>REST APIs</Badge>
                     </div>
 
                     <h6 className="font-semibold mb-3">Servers</h6>

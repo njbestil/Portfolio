@@ -1,0 +1,179 @@
+{
+    "portfolio": [
+        {
+            "id": 1,
+            "project_name": "Avidhilda",
+            "details": "I developed a comprehensive business website showcasing eight distinct services, each with its dedicated page, effectively creating the concept of eight websites within a single domain. The site incorporates a booking system integrated with a point-of-sale (POS) functionality using Stripe as the payment gateway. To enhance user experience, a Lifestyle Management System allows users to register, log in, and efficiently manage various features through their personalized dashboards. \n\n Furthermore, the website includes a Content Management System (CMS) empowering administrators to effortlessly control website content. This feature proves especially valuable for updating information related to daily or weekly events and news. The project was initiated from scratch, utilizing ReactJS as the primary front-end framework, coupled with Tailwind CSS for responsive web design. Laravel serves as the robust backend infrastructure, managing data through REST APIs and seamlessly integrating both platforms for efficient data management.",
+            "project_type": [
+                "business website",
+                "cms",
+                "pos",
+                "ulms"
+            ],
+            "backend": [
+                "Laravel",
+                "MySql"
+            ],
+            "frontend": [
+                "ReactJS",
+                "Tailwind"
+            ],
+            "skills": [
+                "cPanel",
+                "Postman",
+                "Sourcetree",
+                "Bitbucket",
+                "Figma",
+                "REST APIs"
+            ],
+            "sourcecode_url": "",
+            "demo_url": "https://www.avidhilda.com",
+            "images": [
+                "avidhilda_ss_1.jpg",
+                "avidhilda_ss_2.jpg",
+                "avidhilda_ss_3.jpg",
+                "avidhilda_ss_4.jpg",
+                "avidhilda_ss_5.jpg",
+                "avidhilda_ss_6.jpg",
+                "avidhilda_ss_7.png"
+            ]
+        },
+        {
+            "id": 2,
+            "project_name": "thoiltrading",
+            "details": "The development of this website was driven by the intention to provide users with a highly user-friendly interface, ensuring that information is presented in a clear, concise, and easily navigable manner. The primary goal was to enable users to access company information effortlessly, minimizing unnecessary confusion. Additionally, the website features a Content Management System (CMS) that allows administrators to conveniently update and manage information. \n\n Built with Next.js as the frontend framework, the website prioritizes a responsive web design, complemented by the use of Tailwind CSS. Laravel serves as the core backend infrastructure, facilitating efficient data management and seamless integration between the frontend and backend for enhanced performance.",
+            "project_type": [
+                "business website",
+                "cms"
+            ],
+            "backend": [
+                "Laravel",
+                "MySql"
+            ],
+            "frontend": [
+                "NextJS",
+                "Tailwind"
+            ],
+            "skills": [
+                "cPanel",
+                "Postman",
+                "Sourcetree",
+                "Bitbucket",
+                "Figma",
+                "REST APIs"
+            ],
+            "sourcecode_url": "",
+            "demo_url": "https://www.thoiltrading.com",
+            "images": [
+                "thoiltrading_ss_1.jpg",
+                "thoiltrading_ss_2.jpg",
+                "thoiltrading_ss_3.jpg",
+                "thoiltrading_ss_4.jpg",
+                "thoiltrading_ss_5.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "project_name": "hafez app",
+            "details": "This web application was specifically crafted for the Yalda Night season, where participants engage in the tradition of reading verses from a book called Hafez. During this innovative period, we opted for a digital platform, requiring each individual to scan a QR code directing them to the app. The app, upon scanning, generates a uniquely random version for each user, featuring an automatically played audio. Noteworthy features include the ability to download and share the generated content with friends. \n\n The application was developed using ReactJS for its frontend, with Tailwind CSS providing the foundation for responsive design. Laravel serves as the core for database management, seamlessly integrating both platforms through REST APIs for effective communication.",
+            "project_type": [
+                "web app"
+            ],
+            "backend": [
+                "Laravel",
+                "MySql"
+            ],
+            "frontend": [
+                "ReactJS",
+                "Tailwind"
+            ],
+            "skills": [
+                "cPanel",
+                "Postman",
+                "Sourcetree",
+                "Bitbucket",
+                "Figma",
+                "REST APIs"
+            ],
+            "sourcecode_url": "",
+            "demo_url": "https://hafez.twenty-one-ai.com/",
+            "images": [
+                "hafez_ss_1.png"
+            ]
+        },
+        {
+            "id": 4,
+            "project_name": "universal couture",
+            "details": "This website was meticulously designed with a focus on fashion, making it the central theme throughout the web pages. Embracing the concept of modern innovative fashion, we successfully crafted an engaging and interactive website aimed at leaving a lasting impact on visitors. \n\n In addition to its aesthetic appeal, the website incorporates a User Lifestyle Management System, allowing models to register accounts and apply. This feature includes an Instagram-like functionality where models can upload pictures for approval by the admin. Approved images are showcased on the website, providing a platform for models to promote their profiles for potential modeling opportunities. \n\n Furthermore, the website features a Content Management System (CMS) that empowers administrators to effortlessly update information. The development utilized ReactJS for the frontend and Laravel as the foundational framework for database management. The integration of both platforms was seamlessly achieved through the use of REST APIs.",
+            "project_type": [
+                "business website",
+                "cms",
+                "ulms"
+            ],
+            "backend": [
+                "Laravel",
+                "MySql"
+            ],
+            "frontend": [
+                "ReactJS",
+                "Tailwind"
+            ],
+            "skills": [
+                "cPanel",
+                "Postman",
+                "Sourcetree",
+                "Bitbucket",
+                "Figma",
+                "REST APIs"
+            ],
+            "sourcecode_url": "",
+            "demo_url": "https://ucfashionweek.com/",
+            "images": [
+                "uc_ss_1.jpg",
+                "uc_ss_2.jpg",
+                "uc_ss_3.jpg",
+                "uc_ss_4.jpg",
+                "uc_ss_5.png"
+            ]
+        },
+        {
+            "id": 5,
+            "project_name": "STC Partners",
+            "details": "STC embarked on the development of an advanced smart supplier portal vertical solution with the objective of replacing the current Oracle iSupplier Module. The vision for this innovative project was centered around creating a platform characterized by intelligence, user-friendliness, attractiveness, and digitalization. Our specific focus within this module involved the creation of a landing page, as well as the development of a streamlined supplier registration and profile administration process. In the pursuit of efficiency and simplicity, we successfully revamped the structure of the existing portal. \n\n Our main task involved the creation of a supply chain management (SCM) system, aimed at overseeing the seamless flow of goods, data, and finances associated with a product or service. This comprehensive process spans from the procurement of raw materials to the ultimate delivery of the product at its designated final destination. The project was executed using Angular as the primary framework for the frontend, complemented by Bootstrap to ensure a responsive design. On the backend, Java played a pivotal role, serving as the backbone for database management. The integration of these frontend and backend components was seamlessly achieved through the utilization of REST APIs, ensuring a cohesive and effective synergy between the platforms.",
+            "project_type": [
+                "smart supplier portal",
+                "scm",
+                "ulms"
+            ],
+            "backend": [
+                "Java",
+                "Oracle SQL"
+            ],
+            "frontend": [
+                "Angular",
+                "Bootstrap"
+            ],
+            "skills": [
+                "Oracle Weblogic Server",
+                "Postman",
+                "Sourcetree",
+                "Bitbucket",
+                "Figma",
+                "REST APIs"
+            ],
+            "sourcecode_url": "",
+            "demo_url": "https://my.stc.com.sa/wps/portal/mystc/en",
+            "images": [
+                "stc_ss_1.png",
+                "stc_ss_2.png",
+                "stc_ss_3.png",
+                "stc_ss_4.png",
+                "stc_ss_5.png",
+                "stc_ss_6.png",
+                "stc_ss_7.png",
+                "stc_ss_8.png",
+                "stc_ss_9.png"
+            ]
+        }
+    ]
+}

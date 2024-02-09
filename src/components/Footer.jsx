@@ -1,9 +1,23 @@
+import React, { useState, useEffect } from 'react';
+import { useLocation, Link } from 'react-router-dom';
 import {  
     HiMiniDevicePhoneMobile,
     HiOutlineEnvelope, 
- } from "react-icons/hi2";
+} from "react-icons/hi2";
 
 export default function Footer() {
+    const [isHome, setIsHome] = useState(true);
+    const location = useLocation();
+
+    useEffect(() => {
+        // Check if the pathname is just the root '/'
+        if (location.pathname === '/' && location.search === '') {
+            setIsHome(true);
+        } else {
+            setIsHome(false)
+        }
+    },[location.pathname, location.search]);
+
     return (
         <>
             <div className="bg-dark text-white px-5 py-10">
@@ -12,10 +26,18 @@ export default function Footer() {
                 </div>
                 <h6 className="text-center mb-2 uppercase">Menu</h6>
                 <div className="flex flex-wrap justify-center text-sm">
-                    <a href="#introduction" className="px-2 hover:font-semibold">Introduction</a>
-                    <a href="#aboutme" className="px-2 border-l border-gray-100/40 hover:font-semibold">About Me</a>
-                    <a href="#myskills" className="px-2 border-l border-gray-100/40 hover:font-semibold">My Skills</a>
-                    <a href="#portfolio" className="px-2 border-l border-gray-100/40 hover:font-semibold">Portfolio</a>
+                    {
+                        isHome ? (
+                            <>
+                                <a href="#introduction" className="px-2 hover:font-semibold">Introduction</a>
+                                <a href="#aboutme" className="px-2 border-l border-gray-100/40 hover:font-semibold">About Me</a>
+                                <a href="#myskills" className="px-2 border-l border-gray-100/40 hover:font-semibold">My Skills</a>
+                                <a href="#portfolio" className="px-2 border-l border-gray-100/40 hover:font-semibold">Portfolio</a>
+                            </>
+                        ) : (
+                            <a href="/" className="px-2 hover:font-semibold">Home</a>
+                        )
+                    }
                 </div>
                 <hr className="my-8 w-9/12 mx-auto border-t border-stone-400" />
                 <h6 className="text-center mb-2 uppercase">Contact</h6>

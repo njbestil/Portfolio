@@ -18,7 +18,7 @@ export default function AboutMe() {
                         </p>
                         <div className="border-t-2 border-black w-20 my-4"></div>
                         <p className="text-xs text-justify leading-loose">
-                            I have dedicated the past 12 years of my career to the IT business industry, and I have
+                            I have dedicated the past 15 years of my career to the IT business industry, and I have
                             discovered a deep passion for working in the web development domain as a full-stack professional.
                             While the field of computer engineering is expansive, I have found that web development is the
                             place where I can express creativity, leverage my imagination, and apply logical thinking

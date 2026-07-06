@@ -23,7 +23,7 @@ export default function Footer() {
         <>
             <div className="bg-dark text-white px-5 py-10">
                 <div className="flex justify-center mb-10">
-                    <Link to="/Portfolio" ><img src="/Portfolio/images/nj_logo.png" alt="" className="w-44 " /></Link>
+                    <Link to="/" ><img src="/Portfolio/images/nj_logo.png" alt="" className="w-44 " /></Link>
                 </div>
                 <h6 className="text-center mb-2 uppercase">Menu</h6>
                 <div className="flex flex-wrap justify-center text-sm">

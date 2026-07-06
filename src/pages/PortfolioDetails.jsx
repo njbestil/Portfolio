@@ -13,6 +13,11 @@ export default function PortfolioDetails() {
     const [portfolio, setPortfolio] = useState({});
 
     useEffect(()=>{
+        window.scrollTo({
+            top: 0,
+            behavior: 'smooth' // Optional: for smooth scrolling
+        });
+        
         // Get data portfolio
         const portfolios = data.portfolio;
 
@@ -33,7 +38,7 @@ export default function PortfolioDetails() {
                             {
                                 portfolio.images?.map((image, i) => {
                                     return (
-                                        <img key={i} src={`/Portfolio/images/${image}`} alt="..." className='object-fill w-full h-full' />
+                                        <img key={i} src={`/Portfolio/images/${image}`} alt="..." className='bg-stone-200 md:object-contain object-fill w-full h-full' />
                                     )
                                 })
                             }

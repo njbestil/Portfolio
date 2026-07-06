@@ -3,7 +3,7 @@
         {
             "id": 1,
             "project_name": "Avidhilda",
-            "details": "I developed a comprehensive business website showcasing eight distinct services, each with its dedicated page, effectively creating the concept of eight websites within a single domain. The site incorporates a booking system integrated with a point-of-sale (POS) functionality using Stripe as the payment gateway. To enhance user experience, a Lifestyle Management System allows users to register, log in, and efficiently manage various features through their personalized dashboards. \n\n Furthermore, the website includes a Content Management System (CMS) empowering administrators to effortlessly control website content. This feature proves especially valuable for updating information related to daily or weekly events and news. The project was initiated from scratch, utilizing ReactJS as the primary front-end framework, coupled with Tailwind CSS for responsive web design. Laravel serves as the robust backend infrastructure, managing data through REST APIs and seamlessly integrating both platforms for efficient data management.",
+            "details": "I developed a comprehensive business website showcasing eight distinct services, each with its dedicated page, effectively creating the concept of eight websites within a single domain. The site incorporates a booking system integrated with a point-of-sale (POS) functionality using Stripe as the payment gateway. To enhance user experience, a Lifecyle Management System allows users to register, log in, and efficiently manage various features through their personalized dashboards. \n\n Furthermore, the website includes a Content Management System (CMS) empowering administrators to effortlessly control website content. This feature proves especially valuable for updating information related to daily or weekly events and news. The project was initiated from scratch, utilizing ReactJS as the primary front-end framework, coupled with Tailwind CSS for responsive web design. Laravel serves as the robust backend infrastructure, managing data through REST APIs and seamlessly integrating both platforms for efficient data management.",
             "project_type": [
                 "business website",
                 "cms",
@@ -27,7 +27,7 @@
                 "REST APIs"
             ],
             "sourcecode_url": "",
-            "demo_url": "https://www.avidhilda.com",
+            "demo_url": "https://avidhilda.com",
             "images": [
                 "avidhilda_ss_1.jpg",
                 "avidhilda_ss_2.jpg",
@@ -63,7 +63,7 @@
                 "REST APIs"
             ],
             "sourcecode_url": "",
-            "demo_url": "https://www.thoiltrading.com",
+            "demo_url": "https://thoiltrading.com",
             "images": [
                 "thoiltrading_ss_1.jpg",
                 "thoiltrading_ss_2.jpg",
@@ -95,7 +95,7 @@
                 "Figma",
                 "REST APIs"
             ],
-            "sourcecode_url": "",
+            "sourcecode_url": "https://github.com/njbestil/hafez",
             "demo_url": "https://hafez.twenty-one-ai.com/",
             "images": [
                 "hafez_ss_1.png"
@@ -104,7 +104,7 @@
         {
             "id": 4,
             "project_name": "universal couture",
-            "details": "This website was meticulously designed with a focus on fashion, making it the central theme throughout the web pages. Embracing the concept of modern innovative fashion, we successfully crafted an engaging and interactive website aimed at leaving a lasting impact on visitors. \n\n In addition to its aesthetic appeal, the website incorporates a User Lifestyle Management System, allowing models to register accounts and apply. This feature includes an Instagram-like functionality where models can upload pictures for approval by the admin. Approved images are showcased on the website, providing a platform for models to promote their profiles for potential modeling opportunities. \n\n Furthermore, the website features a Content Management System (CMS) that empowers administrators to effortlessly update information. The development utilized ReactJS for the frontend and Laravel as the foundational framework for database management. The integration of both platforms was seamlessly achieved through the use of REST APIs.",
+            "details": "This website was meticulously designed with a focus on fashion, making it the central theme throughout the web pages. Embracing the concept of modern innovative fashion, we successfully crafted an engaging and interactive website aimed at leaving a lasting impact on visitors. \n\n In addition to its aesthetic appeal, the website incorporates a User Lifecyle Management System, allowing models to register accounts and apply. This feature includes an Instagram-like functionality where models can upload pictures for approval by the admin. Approved images are showcased on the website, providing a platform for models to promote their profiles for potential modeling opportunities. \n\n Furthermore, the website features a Content Management System (CMS) that empowers administrators to effortlessly update information. The development utilized ReactJS for the frontend and Laravel as the foundational framework for database management. The integration of both platforms was seamlessly achieved through the use of REST APIs.",
             "project_type": [
                 "business website",
                 "cms",

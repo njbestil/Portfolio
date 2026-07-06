@@ -22,7 +22,13 @@
 
 /* Carousel */
 .carousel {
-    height: 300px !important;
+    height: 500px !important;
+}
+
+@media (max-width: 768px) {
+    .carousel {
+        height: 300px !important;
+    }
 }
 
 .carousel>div {

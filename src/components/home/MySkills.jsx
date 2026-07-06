@@ -16,9 +16,9 @@ export default function MySkills() {
             <div className="p-8 pt-0">   
                 <section>
                     <p className="text-xs text-justify mb-5 leading-relaxed">
-                        I am working as a full-stack developer right now, specializing in ReactJS 
-                        coupled with Tailwind CSS for the frontend, and Laravel for backend operations. I consider 
-                        these platforms to be at the forefront of todays web development.
+                        I am currently working as a Full-Stack Developer, specializing in ReactJS with Tailwind CSS for frontend 
+                        development, and Java and Laravel for backend operations. I consider these platforms to be 
+                        at the forefront of todays web development.
                     </p>
 
                     <h6 className="font-semibold mb-3">Technical Skills</h6>
@@ -38,6 +38,7 @@ export default function MySkills() {
                         <Badge>Angular</Badge>
                         <Badge>OracleJet</Badge>
                         <Badge highlight={true}>Laravel</Badge>
+                        <Badge>Android</Badge>
                         <Badge>CodeIgniter</Badge>
                         <Badge highlight={true}>REST APIs</Badge>
                     </div>
@@ -54,17 +55,20 @@ export default function MySkills() {
                     <h6 className="font-semibold mb-3">Platforms</h6>
                     <div className="flex flex-wrap gap-3 pl-2 mb-5">
                         <Badge highlight={true}>Visual Studio Code</Badge>
+                        <Badge highlight={true}>Android Studio</Badge>
                         <Badge>Oracle JDeveloper</Badge>
                         <Badge highlight={true}>Postman</Badge>
                         <Badge>Sourcetree</Badge>
                         <Badge>Bitbucket</Badge>
+                        <Badge>Github</Badge>
                     </div>
 
                     <h6 className="font-semibold mb-3">Tools</h6>
                     <div className="flex flex-wrap gap-3 pl-2">
+                        <Badge highlight={true}>JIRA</Badge>
+                        <Badge highlight={true}>Figma</Badge>
                         <Badge>Adobe Photoshop</Badge>
                         <Badge>Adobe illustrator</Badge>
-                        <Badge highlight={true}>Figma</Badge>
                     </div>
                 </section>
             </div>

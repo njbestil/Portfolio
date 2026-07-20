@@ -178,7 +178,7 @@
         {
             "id": 6,
             "project_name": "Payment Terminal App",
-            "details": "A smart payment terminal application integrated with GPAY, FDRC, TSYS, and CBQ payment processors. It offers features such as card transaction processing, tax and surcharge calculation, QR-code receipts, transaction management, and other essential merchant payment services.",
+            "details": "A smart payment terminal application integrated with multiple payment platforms and financial-service providers, including GPAY, FDRC, TSYS, and CBQ. It offers features such as card transaction processing, tax and surcharge calculation, QR-code receipts, transaction management, and other essential merchant payment services.",
             "project_type": [
                 "pos",
                 "epos",

@@ -16,9 +16,10 @@ export default function MySkills() {
             <div className="p-8 pt-0">   
                 <section>
                     <p className="text-xs text-justify mb-5 leading-relaxed">
-                        I am currently working as a Full-Stack Developer, specializing in ReactJS with Tailwind CSS for frontend 
-                        development, and Java and Laravel for backend operations. I consider these platforms to be 
-                        at the forefront of todays web development.
+                        I am currently working as a Full-Stack Developer with experience across a diverse range of programming 
+                        languages and technologies. My key strengths lie in ReactJS and Tailwind CSS for frontend development, 
+                        as well as Java and Laravel for backend development. These technologies form the foundation of my 
+                        expertise and enable me to build modern, scalable, and efficient web applications.
                     </p>
 
                     <h6 className="font-semibold mb-3">Technical Skills</h6>

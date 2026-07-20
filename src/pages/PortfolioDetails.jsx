@@ -43,9 +43,11 @@ export default function PortfolioDetails() {
                                 })
                             }
                         </Carousel>
-                        <div className="absolute top-0 right-0 p-4">
-                            <a href={portfolio.demo_url} target='_blank' className='bg-[#8C8C9C]/90 px-4 py-1 rounded-full text-white hover:text-stone-100 text-xs hover:custom-shadow-inner shadow-red-950'>Live Demo</a>
-                        </div>
+                        {portfolio.demo_url && (
+                            <div className="absolute top-0 right-0 p-4">
+                                <a href={portfolio.demo_url} target='_blank' className='bg-[#8C8C9C]/90 px-4 py-1 rounded-full text-white hover:text-stone-100 text-xs hover:custom-shadow-inner shadow-red-950'>Live Demo</a>
+                            </div>
+                        )}
                     </div>
                 </div>
                 <div className='p-5'>
@@ -69,7 +71,7 @@ export default function PortfolioDetails() {
                                     >Source Code
                                     </a>
                                 ) : (
-                                    <Tooltip content="Will provide upon request" placement="left">
+                                    <Tooltip content="Source code is confidential" placement="left">
                                         <button className='bg-[#cbcfcd] px-4 py-1 text-xs text-stone-500 cursor-not-allowed rounded-md flex items-center' disabled>
                                             <HiOutlineLockClosed className='mr-1'/> Source Code
                                         </button>

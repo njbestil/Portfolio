@@ -63,7 +63,7 @@
                 "REST APIs"
             ],
             "sourcecode_url": "",
-            "demo_url": "https://thoiltrading.com",
+            "demo_url": "",
             "images": [
                 "thoiltrading_ss_1.jpg",
                 "thoiltrading_ss_2.jpg",
@@ -96,7 +96,7 @@
                 "REST APIs"
             ],
             "sourcecode_url": "https://github.com/njbestil/hafez",
-            "demo_url": "https://hafez.twenty-one-ai.com/",
+            "demo_url": "",
             "images": [
                 "hafez_ss_1.png"
             ]
@@ -127,7 +127,7 @@
                 "REST APIs"
             ],
             "sourcecode_url": "",
-            "demo_url": "https://ucfashionweek.com/",
+            "demo_url": "",
             "images": [
                 "uc_ss_1.jpg",
                 "uc_ss_2.jpg",
@@ -173,6 +173,78 @@
                 "stc_ss_7.png",
                 "stc_ss_8.png",
                 "stc_ss_9.png"
+            ]
+        },
+        {
+            "id": 6,
+            "project_name": "Payment Terminal App",
+            "details": "A smart payment terminal application integrated with GPAY, FDRC, TSYS, and CBQ payment processors. It offers features such as card transaction processing, tax and surcharge calculation, QR-code receipts, transaction management, and other essential merchant payment services.",
+            "project_type": [
+                "pos",
+                "epos",
+                "payments"
+            ],
+            "backend": [
+                "Java"
+            ],
+            "frontend": [
+                "Android"
+            ],
+            "skills": [
+                "Postman",
+                "Sourcetree",
+                "Bitbucket",
+                "Github",
+                "JIRA",
+                "Figma",
+                "REST APIs"
+            ],
+            "sourcecode_url": "",
+            "demo_url": "",
+            "images": [
+                "amp_ss_1.png",
+                "amp_ss_2.png"
+            ]
+        },
+        {
+            "id": 7,
+            "project_name": "Loan Management System",
+            "details": "A full-stack loan application and credit risk evaluation platform built with React, Vite, Tailwind CSS, and Laravel. It supports user authentication, loan application management, configurable credit and risk scoring models, pre-evaluation workflows, and reporting dashboards with visualized application insights.",
+            "project_type": [
+                "loan management system",
+                "finance",
+                "crm"
+            ],
+            "backend": [
+                "PHP",
+                "Laravel"
+            ],
+            "frontend": [
+                "JavaScript",
+                "React",
+                "Vite",
+                "Tailwind CSS"
+            ],
+            "skills": [
+                "Postman",
+                "Sourcetree",
+                "Bitbucket",
+                "Github",
+                "JIRA",
+                "Figma",
+                "REST APIs"
+            ],
+            "sourcecode_url": "https://github.com/njbestil/loan-app",
+            "demo_url": "",
+            "images": [
+                "loan_ss_1.png",
+                "loan_ss_2.png",
+                "loan_ss_3.png",
+                "loan_ss_4.png",
+                "loan_ss_5.png",
+                "loan_ss_6.png",
+                "loan_ss_7.png",
+                "loan_ss_8.png"
             ]
         }
     ]

@@ -9,7 +9,7 @@ export default function Portfolio() {
                 <div className="flex justify-center">
                     <div className="uppercase text-3xl text-center py-2 px-5 bg-dark text-white custom-shadow tracking-widest">Portfolio</div>
                 </div>
-                <p className="text-center my-8">here are a few of my best work</p>
+                <p className="text-center my-8">Here are a few projects I’m proud to have worked on across different platforms.</p>
             </div>
 
             <div className="flex flex-wrap gap-5 bg-stone-200 p-5 justify-center">
@@ -49,6 +49,22 @@ export default function Portfolio() {
                         <p className="bg-[#8C8C9C]/90 px-3 py-1 text-xs rounded-md text-zinc-100">smart supplier portal</p>
                         <p className="bg-[#8C8C9C]/90 px-3 py-1 text-xs rounded-md text-zinc-100">scm</p>
                         <p className="bg-[#8C8C9C]/90 px-3 py-1 text-xs rounded-md text-zinc-100">ulms</p>
+                    </div>
+                </Card>
+                <Card src="/Portfolio/images/amp_ss_1.png">
+                    <Link to="/portfolio-details/Payment Terminal App" className="bg-[#8C9491]/90 px-3 py-2 text-sm rounded group/btn">more details <HiArrowRightCircle className="ml-1 inline text-white text-xl group-hover/btn:ml-3 transition-all duration-300" /></Link>
+                    <div className="flex flex-wrap gap-2 mt-5">
+                        <p className="bg-[#8C8C9C]/90 px-3 py-1 text-xs rounded-md text-zinc-100">payment terminal app</p>
+                        <p className="bg-[#8C8C9C]/90 px-3 py-1 text-xs rounded-md text-zinc-100">pos</p>
+                        <p className="bg-[#8C8C9C]/90 px-3 py-1 text-xs rounded-md text-zinc-100">epos</p>
+                    </div>
+                </Card>
+                <Card src="/Portfolio/images/loan_ss_1.png">
+                    <Link to="/portfolio-details/Loan Management System" className="bg-[#8C9491]/90 px-3 py-2 text-sm rounded group/btn">more details <HiArrowRightCircle className="ml-1 inline text-white text-xl group-hover/btn:ml-3 transition-all duration-300" /></Link>
+                    <div className="flex flex-wrap gap-2 mt-5">
+                        <p className="bg-[#8C8C9C]/90 px-3 py-1 text-xs rounded-md text-zinc-100">loan management system</p>
+                        <p className="bg-[#8C8C9C]/90 px-3 py-1 text-xs rounded-md text-zinc-100">finance</p>
+                        <p className="bg-[#8C8C9C]/90 px-3 py-1 text-xs rounded-md text-zinc-100">crm</p>
                     </div>
                 </Card>
             </div>

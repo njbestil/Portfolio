@@ -177,7 +177,7 @@
         },
         {
             "id": 6,
-            "project_name": "Payment Terminal App",
+            "project_name": "AMP Payments",
             "details": "A smart payment terminal application integrated with multiple payment platforms and financial-service providers, including GPAY, FDRC, TSYS, and CBQ. It offers features such as card transaction processing, tax and surcharge calculation, QR-code receipts, transaction management, and other essential merchant payment services.",
             "project_type": [
                 "pos",
@@ -208,7 +208,7 @@
         },
         {
             "id": 7,
-            "project_name": "Loan Management System",
+            "project_name": "Rural Bank of Hindang",
             "details": "A full-stack loan application and credit risk evaluation platform built with React, Vite, Tailwind CSS, and Laravel. It supports user authentication, loan application management, configurable credit and risk scoring models, pre-evaluation workflows, and reporting dashboards with visualized application insights.",
             "project_type": [
                 "loan management system",
@@ -245,6 +245,64 @@
                 "loan_ss_6.png",
                 "loan_ss_7.png",
                 "loan_ss_8.png"
+            ]
+        },
+        {
+            "id": 8,
+            "project_name": "Assembly Endgame",
+            "details": "A capstone game project featuring interactive gameplay, responsive controls, and engaging game mechanics, developed to demonstrate practical skills in game design and software development.",
+            "project_type": [
+                "web app",
+                "game"
+            ],
+            "backend": [],
+            "frontend": [
+                "JavaScript",
+                "React",
+                "Vite",
+                "Tailwind CSS"
+            ],
+            "skills": [
+                "Postman",
+                "Sourcetree",
+                "Bitbucket",
+                "Github"
+            ],
+            "sourcecode_url": "https://github.com/njbestil/capstone-game",
+            "demo_url": "",
+            "images": [
+                "assembly_ss_1.png",
+                "assembly_ss_2.png",
+                "assembly_ss_3.png",
+                "assembly_ss_4.png"
+            ]
+        },
+        {
+            "id": 9,
+            "project_name": "Chef Claude",
+            "details": "An AI-powered recipe generator built with React and integrated with the OpenAI API. Users can enter the ingredients they currently have, and the application generates a practical recipe suggestion based on those available items. It is designed to make meal planning easier, reduce food waste, and help users prepare simple dishes without needing to search through multiple recipes manually.",
+            "project_type": [
+                "recipe generator",
+                "AI Recipe Recommendation System"
+            ],
+            "backend": [],
+            "frontend": [
+                "JavaScript",
+                "React",
+                "Vite",
+                "Tailwind CSS"
+            ],
+            "skills": [
+                "Postman",
+                "Sourcetree",
+                "Bitbucket",
+                "Github"
+            ],
+            "sourcecode_url": "https://github.com/njbestil/chef-claude/tree/main",
+            "demo_url": "",
+            "images": [
+                "chef_claude_ss_1.png",
+                "chef_claude_ss_2.png"
             ]
         }
     ]

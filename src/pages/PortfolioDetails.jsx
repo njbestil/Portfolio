@@ -84,32 +84,46 @@ export default function PortfolioDetails() {
 
                     <p className='text-xs mb-5 whitespace-pre-line text-justify'>{portfolio.details}</p>
 
-                    <h6 className="font-semibold mb-3">Backend</h6>
-                    <div className="flex flex-wrap gap-3 pl-2 mb-5">
-                        {
-                            portfolio.backend?.map((item, i)=>(
-                                <Badge key={i}>{item}</Badge>
-                            ))
-                        }
-                    </div>
-
-                    <h6 className="font-semibold mb-3">Frontend</h6>
-                    <div className="flex flex-wrap gap-3 pl-2 mb-5">
-                        {
-                            portfolio.frontend?.map((item, i)=>(
-                                <Badge key={i}>{item}</Badge>
-                            ))
-                        }
-                    </div>
-
-                    <h6 className="font-semibold mb-3">Other Skills</h6>
-                    <div className="flex flex-wrap gap-3 pl-2 mb-5">
-                        {
-                            portfolio.skills?.map((item, i)=>(
-                                <Badge key={i}>{item}</Badge>
-                            ))
-                        }
-                    </div>
+                    { portfolio.backend?.length > 0 && (
+                      <>
+                        <h6 className="font-semibold mb-3">Backend</h6>
+                        <div className="flex flex-wrap gap-3 pl-2 mb-5">
+                            {
+                                portfolio.backend?.map((item, i)=>(
+                                    <Badge key={i}>{item}</Badge>
+                                ))
+                            }
+                        </div>
+                      </>
+                    )}
+                    
+                    { portfolio.frontend?.length > 0 && (
+                      <>
+                        <h6 className="font-semibold mb-3">Frontend</h6>
+                        <div className="flex flex-wrap gap-3 pl-2 mb-5">
+                            {
+                                portfolio.frontend?.map((item, i)=>(
+                                    <Badge key={i}>{item}</Badge>
+                                ))
+                            }
+                        </div>
+                      </>
+                      )
+                    }
+                    
+                    { portfolio.skills?.length > 0 && (
+                        <>
+                          <h6 className="font-semibold mb-3">Other Skills</h6>
+                          <div className="flex flex-wrap gap-3 pl-2 mb-5">
+                              {
+                                  portfolio.skills?.map((item, i)=>(
+                                      <Badge key={i}>{item}</Badge>
+                                  ))
+                              }
+                          </div>
+                        </>
+                      )
+                    }
                 </div>
             </Webpage>
             

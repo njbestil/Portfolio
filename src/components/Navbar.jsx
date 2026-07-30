@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useLocation, Link } from 'react-router-dom';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { 
@@ -13,7 +13,7 @@ import {
     HiOutlineDocumentText,
     HiChevronLeft
  } from "react-icons/hi2";
-import { FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
 export default function Navbar() {
     const [openMenu, setOpenMenu] = useState(false);
@@ -23,7 +23,7 @@ export default function Navbar() {
     const [isHome, setIsHome] = useState(true);
     const location = useLocation();
 
-    window.addEventListener("scroll", (event) => {
+    window.addEventListener("scroll", () => {
         let scrollYPosition = window.scrollY;
         if (scrollYPosition > 90) {
             // Navbar fixed top
@@ -190,6 +190,11 @@ export default function Navbar() {
                             onClick={() => setOpenMenu(!openMenu)}
                         ><p>Portfolio</p></AnchorLink>
                     </li>
+                    <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
+                        <AnchorLink href="#certificates" className="w-full"
+                            onClick={() => setOpenMenu(!openMenu)}
+                        ><p>Certificates</p></AnchorLink>
+                    </li>
                 </ul>
             </div>
             {/* End - Menu of web page */}
@@ -214,6 +219,9 @@ export default function Navbar() {
                     </li>
                     <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
                         <Link to="https://www.linkedin.com/in/neil-joseph-bestil-b8a67822b" target="_blank"><p><span className="text-xs">in/neil-joseph-bestil</span> <FaLinkedin className="inline text-lg" /></p></Link>
+                    </li>
+                    <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
+                        <Link to="https://github.com/njbestil" target="_blank" ><p><span className="text-xs">github.com/njbestil</span> <FaGithubSquare className="inline text-xl" /></p></Link>
                     </li>
                     <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
                         <Link to="https://github.com/njbestil/Portfolio" target="_blank" ><p><span className="text-xs">Source Code</span> <HiMiniCodeBracketSquare className="inline text-xl" /></p></Link>

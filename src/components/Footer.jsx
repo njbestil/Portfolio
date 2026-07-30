@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useLocation, Link } from 'react-router-dom';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
-import {  
-    HiMiniDevicePhoneMobile,
-    HiOutlineEnvelope, 
- } from "react-icons/hi2";
+import { HiMiniDevicePhoneMobile, HiOutlineEnvelope } from "react-icons/hi2";
+import { FaLinkedin, FaGithubSquare } from "react-icons/fa";
 
 export default function Footer() {
     const [isHome, setIsHome] = useState(true);
@@ -34,6 +32,7 @@ export default function Footer() {
                                 <AnchorLink href="#aboutme" className="px-2 border-l border-gray-100/40 hover:font-semibold">About Me</AnchorLink>
                                 <AnchorLink href="#myskills" className="px-2 border-l border-gray-100/40 hover:font-semibold">My Skills</AnchorLink>
                                 <AnchorLink href="#portfolio" className="px-2 border-l border-gray-100/40 hover:font-semibold">Portfolio</AnchorLink>
+                                <AnchorLink href="#certificates" className="px-2 border-l border-gray-100/40 hover:font-semibold">Certificates</AnchorLink>
                             </>
                         ) : (
                             <Link to="/" className="px-2 hover:font-semibold">Home</Link>
@@ -47,7 +46,41 @@ export default function Footer() {
                     <Link to="https://wa.me/+971522465535" target="_blank"><span className="text-xs">+971 52 246 5535</span> <HiMiniDevicePhoneMobile className="inline text-lg" /></Link>
                     <Link to="mailto:njbestil90@gmail.com"><span className="text-xs">njbestil90@gmail.com</span> <HiOutlineEnvelope className="inline text-lg" /></Link>
                 </div>
-                <p className="text-center text-xs">&copy; Neil Joseph Bestil 2022-2024. All Rights Reserved.</p>
+                <div className="flex flex-row gap-5 justify-center mb-10 text-center">
+                    <Link
+                        to="https://www.linkedin.com/in/neil-joseph-bestil-b8a67822b"
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label="LinkedIn"
+                        className="group relative inline-flex"
+                    >
+                        <FaLinkedin className="text-5xl" />
+                        <span
+                            role="tooltip"
+                            className="pointer-events-none absolute bottom-full left-1/2 mb-2 -translate-x-1/2 whitespace-nowrap rounded bg-stone-100 px-2 py-1 text-xs font-medium text-dark opacity-0 shadow-md transition-opacity duration-200 group-hover:opacity-100 group-focus-visible:opacity-100"
+                        >
+                            LinkedIn
+                            <span className="absolute left-1/2 top-full -translate-x-1/2 border-4 border-transparent border-t-stone-100" />
+                        </span>
+                    </Link>
+                    <Link
+                        to="https://github.com/njbestil"
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label="GitHub"
+                        className="group relative inline-flex"
+                    >
+                        <FaGithubSquare className="text-5xl" />
+                        <span
+                            role="tooltip"
+                            className="pointer-events-none absolute bottom-full left-1/2 mb-2 -translate-x-1/2 whitespace-nowrap rounded bg-stone-100 px-2 py-1 text-xs font-medium text-dark opacity-0 shadow-md transition-opacity duration-200 group-hover:opacity-100 group-focus-visible:opacity-100"
+                        >
+                            GitHub
+                            <span className="absolute left-1/2 top-full -translate-x-1/2 border-4 border-transparent border-t-stone-100" />
+                        </span>
+                    </Link>
+                </div>
+                <p className="text-center text-xs">&copy; Neil Joseph Bestil 2022-{new Date().getFullYear()}. All Rights Reserved.</p>
             </div>
         </>
     )

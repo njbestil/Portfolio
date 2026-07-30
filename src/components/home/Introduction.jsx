@@ -1,4 +1,3 @@
-import { Link } from 'react-router-dom';
 import AnchorLink from 'react-anchor-link-smooth-scroll';
 import { HiChevronDoubleDown } from "react-icons/hi2";
 
@@ -11,7 +10,7 @@ export default function Introduction() {
                     <div className="px-16 text-center font-shadows-into-light">
                         <p className="mt-7 mb-5 text-2xl">Hey There!</p>
                         <div className="inline-block">
-                            I'm a Computer Engineer who loves crafting interactive websites
+                            I&apos;m a Computer Engineer who loves crafting interactive websites
                             <div className="ml-2 transform rotate-45 inline-block w-[20px]">=)</div>
                         </div>
                     </div>

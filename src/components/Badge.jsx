@@ -1,4 +1,6 @@
-import React, { useState, useEffect } from "react"
+import PropTypes from "prop-types";
+import { useState, useEffect } from "react"
+
 export default function Badge({highlight, children}) {
     const [classValue, setClassValue] = useState();
 
@@ -17,3 +19,8 @@ export default function Badge({highlight, children}) {
         </>
     )
 }
+
+Badge.propTypes = {
+    highlight: PropTypes.bool,
+    children: PropTypes.node.isRequired,
+};

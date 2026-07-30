@@ -19,13 +19,13 @@ export default function MySkills() {
                         I am currently working as a Full-Stack Developer with experience across a diverse range of programming 
                         languages and technologies. My key strengths lie in ReactJS and Tailwind CSS for frontend development, 
                         as well as Java and Laravel for backend development. These technologies form the foundation of my 
-                        expertise and enable me to build modern, scalable, and efficient web applications.
+                        expertise and enable me to build modern, scalable, and efficient software applications.
                     </p>
 
                     <h6 className="font-semibold mb-3">Technical Skills</h6>
                     <div className="flex flex-wrap gap-3 pl-2 mb-5">
                         <Badge highlight={true}>PHP</Badge>
-                        <Badge>Java</Badge>
+                        <Badge highlight={true}>Java</Badge>
                         <Badge highlight={true}>MySql</Badge>
                         <Badge>SqlLite</Badge>
                         <Badge>Oracle SQL</Badge>
@@ -42,6 +42,8 @@ export default function MySkills() {
                         <Badge>Android</Badge>
                         <Badge>CodeIgniter</Badge>
                         <Badge highlight={true}>REST APIs</Badge>
+                        <Badge highlight={true}>OpenAI/Codex</Badge>
+                        <Badge highlight={true}>Claude</Badge>
                     </div>
 
                     <h6 className="font-semibold mb-3">Servers</h6>

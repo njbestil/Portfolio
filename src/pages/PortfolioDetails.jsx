@@ -1,5 +1,5 @@
 
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Carousel, Tooltip } from 'flowbite-react';
 import { HiOutlineLockClosed } from "react-icons/hi2";
@@ -45,7 +45,7 @@ export default function PortfolioDetails() {
                         </Carousel>
                         {portfolio.demo_url && (
                             <div className="absolute top-0 right-0 p-4">
-                                <a href={portfolio.demo_url} target='_blank' className='bg-[#8C8C9C]/90 px-4 py-1 rounded-full text-white hover:text-stone-100 text-xs hover:custom-shadow-inner shadow-red-950'>Live Demo</a>
+                                <a href={portfolio.demo_url} target='_blank' rel="noreferrer" className='bg-[#8C8C9C]/90 px-4 py-1 rounded-full text-white hover:text-stone-100 text-xs hover:custom-shadow-inner shadow-red-950'>Live Demo</a>
                             </div>
                         )}
                     </div>
@@ -66,7 +66,8 @@ export default function PortfolioDetails() {
                             {
                                 portfolio.sourcecode_url? (
                                     <a href={(portfolio.sourcecode_url)? portfolio.sourcecode_url : "#"} 
-                                        target={portfolio.sourcecode_url? "_blank" : "_self"} 
+                                        target={portfolio.sourcecode_url? "_blank" : "_self"}
+                                        rel={portfolio.sourcecode_url ? "noreferrer" : undefined}
                                         className='bg-[#8C9491]/90 px-4 py-1 rounded-md text-white hover:text-stone-100 hover:bg-[#8C9491]/75 text-xs'
                                     >Source Code
                                     </a>
@@ -84,32 +85,46 @@ export default function PortfolioDetails() {
 
                     <p className='text-xs mb-5 whitespace-pre-line text-justify'>{portfolio.details}</p>
 
-                    <h6 className="font-semibold mb-3">Backend</h6>
-                    <div className="flex flex-wrap gap-3 pl-2 mb-5">
-                        {
-                            portfolio.backend?.map((item, i)=>(
-                                <Badge key={i}>{item}</Badge>
-                            ))
-                        }
-                    </div>
-
-                    <h6 className="font-semibold mb-3">Frontend</h6>
-                    <div className="flex flex-wrap gap-3 pl-2 mb-5">
-                        {
-                            portfolio.frontend?.map((item, i)=>(
-                                <Badge key={i}>{item}</Badge>
-                            ))
-                        }
-                    </div>
-
-                    <h6 className="font-semibold mb-3">Other Skills</h6>
-                    <div className="flex flex-wrap gap-3 pl-2 mb-5">
-                        {
-                            portfolio.skills?.map((item, i)=>(
-                                <Badge key={i}>{item}</Badge>
-                            ))
-                        }
-                    </div>
+                    { portfolio.backend?.length > 0 && (
+                      <>
+                        <h6 className="font-semibold mb-3">Backend</h6>
+                        <div className="flex flex-wrap gap-3 pl-2 mb-5">
+                            {
+                                portfolio.backend?.map((item, i)=>(
+                                    <Badge key={i}>{item}</Badge>
+                                ))
+                            }
+                        </div>
+                      </>
+                    )}
+                    
+                    { portfolio.frontend?.length > 0 && (
+                      <>
+                        <h6 className="font-semibold mb-3">Frontend</h6>
+                        <div className="flex flex-wrap gap-3 pl-2 mb-5">
+                            {
+                                portfolio.frontend?.map((item, i)=>(
+                                    <Badge key={i}>{item}</Badge>
+                                ))
+                            }
+                        </div>
+                      </>
+                      )
+                    }
+                    
+                    { portfolio.skills?.length > 0 && (
+                        <>
+                          <h6 className="font-semibold mb-3">Other Skills</h6>
+                          <div className="flex flex-wrap gap-3 pl-2 mb-5">
+                              {
+                                  portfolio.skills?.map((item, i)=>(
+                                      <Badge key={i}>{item}</Badge>
+                                  ))
+                              }
+                          </div>
+                        </>
+                      )
+                    }
                 </div>
             </Webpage>
             

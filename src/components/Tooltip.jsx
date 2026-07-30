@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import PropTypes from "prop-types";
+import { useState } from 'react';
 
 export default function Tooltip({ content, children, position = 'bottom' }) {
     const [isTooltipVisible, setTooltipVisible] = useState(false);
@@ -18,3 +19,9 @@ export default function Tooltip({ content, children, position = 'bottom' }) {
         </div>
     );
 }
+
+Tooltip.propTypes = {
+    content: PropTypes.node.isRequired,
+    children: PropTypes.node.isRequired,
+    position: PropTypes.oneOf(["top", "right", "bottom", "left"]),
+};

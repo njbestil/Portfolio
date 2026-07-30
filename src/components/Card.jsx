@@ -1,3 +1,5 @@
+import PropTypes from "prop-types";
+
 export default function Card({src, children}) {
     return (
         <div className="group/content relative h-[300px] w-full overflow-hidden sm:w-[400px]">
@@ -14,3 +16,8 @@ export default function Card({src, children}) {
         </div>
     )
 }
+
+Card.propTypes = {
+    src: PropTypes.string.isRequired,
+    children: PropTypes.node.isRequired,
+};

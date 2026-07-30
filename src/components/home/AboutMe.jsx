@@ -11,7 +11,7 @@ export default function AboutMe() {
                     </div>
                     <div className="mb-8">
                         <p className="text-xs text-justify leading-loose">
-                            My name is Neil Joseph, I successfully completed my bachelor's degree in computer engineering with a 
+                            My name is Neil Joseph, I successfully completed my bachelor&apos;s degree in computer engineering with a
                             major in software engineering back in 2011. In order to enhance my digital creative skills, I 
                             have also pursued studies in graphic design, aiming to elevate my proficiency in 
                             web design as a frontend developer.

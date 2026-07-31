@@ -215,7 +215,7 @@ export default function Navbar() {
                         <Link to="mailto:njbestil90@gmail.com"><p><span className="text-xs">njbestil90@gmail.com</span> <HiOutlineEnvelope className="inline text-lg" /></p></Link>
                     </li>
                     <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
-                        <a href="/Portfolio/CV.pdf" download="Best_CV.pdf"><p><span className="text-xs">Download CV</span> <HiOutlineDocumentText className="inline text-lg" /></p></a>
+                        <a href="/Portfolio/CV.pdf" download="Bestil_CV.pdf"><p><span className="text-xs">Download CV</span> <HiOutlineDocumentText className="inline text-lg" /></p></a>
                     </li>
                     <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
                         <Link to="https://www.linkedin.com/in/neil-joseph-bestil-b8a67822b" target="_blank"><p><span className="text-xs">in/neil-joseph-bestil</span> <FaLinkedin className="inline text-lg" /></p></Link>

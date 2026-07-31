@@ -17,7 +17,7 @@ export default function MySkills() {
                 <section>
                     <p className="text-xs text-justify mb-5 leading-relaxed">
                         I am currently working as a Full-Stack Developer with experience across a diverse range of programming 
-                        languages and technologies. My key strengths lie in ReactJS and Tailwind CSS for frontend development, 
+                        languages and technologies. My key strengths lie in React and Tailwind CSS for frontend development, 
                         as well as Java and Laravel for backend development. These technologies form the foundation of my 
                         expertise and enable me to build modern, scalable, and efficient software applications.
                     </p>
@@ -31,13 +31,13 @@ export default function MySkills() {
                         <Badge>Oracle SQL</Badge>
                         <Badge>HTML</Badge>
                         <Badge highlight={true}>CSS</Badge>
-                        <Badge highlight={true}>Javascript</Badge>
-                        <Badge>Jquery</Badge>
+                        <Badge highlight={true}>JavaScript</Badge>
+                        <Badge>jQuery</Badge>
                         <Badge>Bootstrap</Badge>
-                        <Badge highlight={true}>Tailwind</Badge>
-                        <Badge highlight={true}>ReactJS</Badge>
+                        <Badge highlight={true}>Tailwind CSS</Badge>
+                        <Badge highlight={true}>React</Badge>
                         <Badge>Angular</Badge>
-                        <Badge>OracleJet</Badge>
+                        <Badge>Oracle JET</Badge>
                         <Badge highlight={true}>Laravel</Badge>
                         <Badge>Android</Badge>
                         <Badge>CodeIgniter</Badge>
@@ -48,10 +48,10 @@ export default function MySkills() {
 
                     <h6 className="font-semibold mb-3">Servers</h6>
                     <div className="flex flex-wrap gap-3 pl-2 mb-5">
-                        <Badge highlight={true}>wamp</Badge>
-                        <Badge>xamp</Badge>
+                        <Badge highlight={true}>WampServer</Badge>
+                        <Badge>XAMP</Badge>
                         <Badge highlight={true}>cPanel</Badge>
-                        <Badge>Oracle Weblogic Server</Badge>
+                        <Badge>Oracle WebLogic Server</Badge>
                         <Badge>Windows Server</Badge>
                     </div>
 
@@ -71,7 +71,7 @@ export default function MySkills() {
                         <Badge highlight={true}>JIRA</Badge>
                         <Badge highlight={true}>Figma</Badge>
                         <Badge>Adobe Photoshop</Badge>
-                        <Badge>Adobe illustrator</Badge>
+                        <Badge>Adobe Illustrator</Badge>
                     </div>
                 </section>
             </div>

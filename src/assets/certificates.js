@@ -19,6 +19,16 @@ const certificates = [
         expires: "No expiry",
         description: "Certificate of completion awarded by Scrimba for completing the Learn React course.",
     },
+    {
+        id: 3,
+        name: "Learn TypeScript",
+        path: "certs/Learn typescript.pdf",
+        category: "Frontend",
+        issuer: "Scrimba",
+        issued: "5 Aug 2026",
+        expires: "No expiry",
+        description: "Certificate of completion awarded by Scrimba for completing the Learn TypeScript course.",
+    },
 ];
 
 export default certificates;

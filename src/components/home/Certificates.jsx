@@ -265,7 +265,7 @@ export default function Certificates() {
                                                         <p className="text-[0.6rem] uppercase tracking-[0.16em] text-stone-400">
                                                             Certificate details
                                                         </p>
-                                                        <p className="mt-3 text-sm leading-6 text-stone-300">
+                                                        <p className="mt-3 text-justify text-sm leading-6 text-stone-300">
                                                             {certificate.description}
                                                         </p>
                                                         <button

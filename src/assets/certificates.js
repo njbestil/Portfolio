@@ -7,7 +7,7 @@ const certificates = [
         issuer: "Scrimba",
         issued: "13 Jul 2026",
         expires: "No expiry",
-        description: "Certificate of completion awarded by Scrimba for completing the Intro to Vite course.",
+        description: "Learned to set up modern frontend projects with Vite, navigate its project structure and configuration, use its fast development workflow, and generate optimized production builds.",
     },
     {
         id: 2,
@@ -17,7 +17,7 @@ const certificates = [
         issuer: "Scrimba",
         issued: "29 Jul 2026",
         expires: "No expiry",
-        description: "Certificate of completion awarded by Scrimba for completing the Learn React course.",
+        description: "Built data-driven React applications using JSX, reusable components, props, state management, forms, controlled inputs, refs, side effects, API integration, and accessibility best practices.",
     },
     {
         id: 3,
@@ -27,7 +27,17 @@ const certificates = [
         issuer: "Scrimba",
         issued: "5 Aug 2026",
         expires: "No expiry",
-        description: "Certificate of completion awarded by Scrimba for completing the Learn TypeScript course.",
+        description: "Applied TypeScript fundamentals, including custom types, interfaces, unions, narrowing, generics, and utility types, to React components, application state, and a fully typed Express server.",
+    },
+    {
+        id: 4,
+        name: "Learn AI Agents",
+        path: "certs/Learn ai agents.pdf",
+        category: "Artificial Intelligence",
+        issuer: "Scrimba",
+        issued: "7 Aug 2026",
+        expires: "No expiry",
+        description: "Built LLM-powered agents using prompt engineering, structured responses, ReAct reasoning loops, action functions, OpenAI function calling, automatic tool execution, and a multi-step AI travel agent.",
     },
 ];
 

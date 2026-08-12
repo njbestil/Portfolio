@@ -38,7 +38,7 @@ export default function PortfolioDetails() {
                             {
                                 portfolio.images?.map((image, i) => {
                                     return (
-                                        <img key={i} src={`/portfolio/images/${image}`} alt="..." className='bg-stone-200 md:object-contain object-fill w-full h-full' />
+                                        <img key={i} src={`/Portfolio/images/${image}`} alt="..." className='bg-stone-200 md:object-contain object-fill w-full h-full' />
                                     )
                                 })
                             }

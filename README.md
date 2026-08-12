@@ -8,7 +8,7 @@ The website provides recruiters, clients, and potential collaborators with a cle
 
 View the deployed website:
 
-**[njbestil.github.io/portfolio](https://njbestil.github.io/portfolio/)**
+**[njbestil.github.io/Portfolio](https://njbestil.github.io/Portfolio/)**
 
 ## Features
 
@@ -48,13 +48,13 @@ Make sure you have the following installed:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/njbestil/portfolio.git
+git clone https://github.com/njbestil/Portfolio.git
 ```
 
 2. Navigate to the project directory:
 
 ```bash
-cd portfolio
+cd Portfolio
 ```
 
 3. Install the project dependencies:
@@ -92,7 +92,7 @@ The website is hosted through GitHub Pages.
 **Neil Joseph Bestil**
 
 * GitHub: [@njbestil](https://github.com/njbestil)
-* Portfolio: [njbestil.github.io/portfolio](https://njbestil.github.io/portfolio/)
+* Portfolio: [njbestil.github.io/Portfolio](https://njbestil.github.io/Portfolio/)
 
 ## License
 

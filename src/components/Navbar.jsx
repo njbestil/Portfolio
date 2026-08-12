@@ -44,7 +44,7 @@ export default function Navbar() {
 
     useEffect(() => {
         // Check if the pathname is just the root '/'
-        if ((location.pathname === '/' || location.pathname === '/portfolio' || location.pathname === '/portfolio/') && location.search === '') {
+        if ((location.pathname === '/' || location.pathname === '/Portfolio' || location.pathname === '/Portfolio/') && location.search === '') {
             setIsHome(true);
         } else {
             setIsHome(false)
@@ -58,7 +58,7 @@ export default function Navbar() {
         if (window.history.length > 1 && previousPageURL) {
             window.history.go(-1);
         } else {
-            window.location.href = "/portfolio/";
+            window.location.href = "/Portfolio/";
         }
     }
 
@@ -215,7 +215,7 @@ export default function Navbar() {
                         <Link to="mailto:njbestil90@gmail.com"><p><span className="text-xs">njbestil90@gmail.com</span> <HiOutlineEnvelope className="inline text-lg" /></p></Link>
                     </li>
                     <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
-                        <a href="/portfolio/CV.pdf" download="Bestil_CV.pdf"><p><span className="text-xs">Download CV</span> <HiOutlineDocumentText className="inline text-lg" /></p></a>
+                        <a href="/Portfolio/CV.pdf" download="Bestil_CV.pdf"><p><span className="text-xs">Download CV</span> <HiOutlineDocumentText className="inline text-lg" /></p></a>
                     </li>
                     <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
                         <Link to="https://www.linkedin.com/in/neil-joseph-bestil-b8a67822b" target="_blank"><p><span className="text-xs">in/neil-joseph-bestil</span> <FaLinkedin className="inline text-lg" /></p></Link>
@@ -224,7 +224,7 @@ export default function Navbar() {
                         <Link to="https://github.com/njbestil" target="_blank" ><p><span className="text-xs">github.com/njbestil</span> <FaGithubSquare className="inline text-xl" /></p></Link>
                     </li>
                     <li className="border-t border-gray-100/40 py-2 hover:font-semibold">
-                        <Link to="https://github.com/njbestil/portfolio" target="_blank" ><p><span className="text-xs">Source Code</span> <HiMiniCodeBracketSquare className="inline text-xl" /></p></Link>
+                        <Link to="https://github.com/njbestil/Portfolio" target="_blank" ><p><span className="text-xs">Source Code</span> <HiMiniCodeBracketSquare className="inline text-xl" /></p></Link>
                     </li>
                 </ul>
             </div>

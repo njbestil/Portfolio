@@ -9,7 +9,7 @@ export default function NotFound() {
                     <FiAlertTriangle className="text-6xl text-red-500 mb-4 mx-auto" />
                     <h1 className="text-4xl font-bold text-gray-800 mb-2">404 Not Found</h1>
                     <p className="text-lg text-gray-600 mb-4">The page you&apos;re looking for does not exist.</p>
-                    <Link to="/Portfolio" className="text-blue-500 underline underline-offset-4">Go back to the home page</Link>
+                    <Link to="/portfolio" className="text-blue-500 underline underline-offset-4">Go back to the home page</Link>
                 </div>
             </div>
         </>

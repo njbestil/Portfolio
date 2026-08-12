@@ -11,7 +11,7 @@ export default function Portfolio() {
       return (
         <Card
           key={portfolio.project_name}
-          src={`/Portfolio/images/${portfolio.images[0]}`}
+          src={`/portfolio/images/${portfolio.images[0]}`}
         >
           <h1 className="text-xl font-semibold capitalize">{portfolio.project_name}</h1>
           <div className="max-h-40 overflow-hidden opacity-100 transition-all duration-500 md:max-h-0 md:opacity-0 md:group-hover/content:max-h-40 md:group-hover/content:opacity-100 md:group-focus-within/content:max-h-40 md:group-focus-within/content:opacity-100">

@@ -2,12 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+    color-scheme: light;
+    color-scheme: only light;
+    background-color: #ffffff;
+}
+
 * {
     scroll-behavior: smooth;
 }
 
 body {
     font-family: 'Quicksand', sans-serif;
+    background-color: #ffffff;
+    color: #2A2F33;
 }
-
 

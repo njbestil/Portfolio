@@ -143,7 +143,7 @@ export default function Certificates() {
                             <span className="block italic">expertise.</span>
                         </h2>
                         <p className="mt-7 max-w-md text-sm leading-6 text-stone-500">
-                            Professional certifications earned through continuous learning and frontend development.
+                            Professional certifications earned through continuous learning and full-stack development.
                         </p>
                     </header>
 

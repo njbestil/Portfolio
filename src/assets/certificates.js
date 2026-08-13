@@ -39,6 +39,26 @@ const certificates = [
         expires: "No expiry",
         description: "Built LLM-powered agents using prompt engineering, structured responses, ReAct reasoning loops, action functions, OpenAI function calling, automatic tool execution, and a multi-step AI travel agent.",
     },
+    {
+        id: 5,
+        name: "Advanced React",
+        path: "certs/Advance react.pdf",
+        category: "Frontend",
+        issuer: "Scrimba",
+        issued: "13 Aug 2026",
+        expires: "No expiry",
+        description: "Advanced React patterns including context, compound components, render props, accessibility, React Router 6, search parameters, performance optimization, and TypeScript integration.",
+    },
+    {
+        id: 6,
+        name: "Learn Express.js",
+        path: "certs/Learn express.pdf",
+        category: "Backend",
+        issuer: "Scrimba",
+        issued: "13 Aug 2026",
+        expires: "No expiry",
+        description: "Built clean Express.js backends using routing, middleware, REST API fundamentals, sessions, file uploads, and server-sent events.",
+    },
 ];
 
 export default certificates;

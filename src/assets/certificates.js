@@ -71,4 +71,6 @@ const certificates = [
     },
 ];
 
-export default certificates;
+export default [...certificates].sort((firstCertificate, secondCertificate) => (
+    Date.parse(secondCertificate.issued) - Date.parse(firstCertificate.issued)
+));

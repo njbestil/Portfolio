@@ -59,6 +59,16 @@ const certificates = [
         expires: "No expiry",
         description: "Built clean Express.js backends using routing, middleware, REST API fundamentals, sessions, file uploads, and server-sent events.",
     },
+    {
+        id: 7,
+        name: "Oracle Cloud Infrastructure Foundations 2021 Certified Associate",
+        path: "certs/OCI_eCertificate.pdf",
+        category: "Cloud",
+        issuer: "Oracle",
+        issued: "5 Jun 2022",
+        expires: "5 Dec 2023",
+        description: "Validated foundational Oracle Cloud Infrastructure knowledge, including core cloud concepts, OCI services, security, and identity and access management.",
+    },
 ];
 
 export default certificates;
